@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F3D5FAB-708B-4D35-A77B-073B30F13A59}|..\\WindowsAi-APIs-packaging\\WindowsAI-APIs-Packaged.wapproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis-packaging\\windowsai-apis-packaged.wapproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis\\imaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|solutionrelative:imaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis\\ocrrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|solutionrelative:ocrrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis\\phi3silica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|solutionrelative:phi3silica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559EE01F-3815-42C0-9035-1FEE54D181CC}|WindowsAI-Apis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F3D5FAB-708B-4D35-A77B-073B30F13A59}|..\\WindowsAi-APIs-packaging\\WindowsAI-APIs-Packaged.wapproj|c:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\windowsai-apis-packaging\\windowsai-apis-packaged.wapproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cd305ae4-3255-4f21-944d-3a059b1b52de"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowsAI-APIs-Packaged",
+              "DocumentMoniker": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAi-APIs-packaging\\WindowsAI-APIs-Packaged.wapproj",
+              "RelativeDocumentMoniker": "..\\WindowsAi-APIs-packaging\\WindowsAI-APIs-Packaged.wapproj",
+              "ToolTip": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAi-APIs-packaging\\WindowsAI-APIs-Packaged.wapproj",
+              "RelativeToolTip": "..\\WindowsAi-APIs-packaging\\WindowsAI-APIs-Packaged.wapproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-21T05:20:06.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\README.md*",
+              "RelativeToolTip": "README.md*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-21T05:03:17.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Imaging.cs",
+              "DocumentMoniker": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\Imaging.cs",
+              "RelativeDocumentMoniker": "Imaging.cs",
+              "ToolTip": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\Imaging.cs",
+              "RelativeToolTip": "Imaging.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:59:07.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Phi3Silica.cs",
+              "DocumentMoniker": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\Phi3Silica.cs",
+              "RelativeDocumentMoniker": "Phi3Silica.cs",
+              "ToolTip": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\Phi3Silica.cs",
+              "RelativeToolTip": "Phi3Silica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:56:06.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T21:28:39.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OcrRecognition.cs",
+              "DocumentMoniker": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\OcrRecognition.cs",
+              "RelativeDocumentMoniker": "OcrRecognition.cs",
+              "ToolTip": "C:\\build-demo\\applications.ai.client.samples-main\\applications.ai.client.samples-main\\WindowsAI-Apis\\OcrRecognition.cs",
+              "RelativeToolTip": "OcrRecognition.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:00:53.751Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,9 +2,11 @@
 
 Welcome to the Microsoft Build 2025 Samples Repository. This repository contains C# samples for the Windows AI Foundry, a groundbreaking platform designed to empower developers with advanced AI capabilities on Windows across a broad spectrum of silicon. The Windows AI Foundry is built on three key pillars: Built-in Models, Ready-to-use Open Source Models, and Bring Your Own Model and this repo features samples for each category running on the Intel AI PC and Copilot+ PC's.
 
+More information on Windows AI Foundry is available at: https://learn.microsoft.com/en-us/windows/ai/overview
+
 ## Repository Contents
 
-   - Windows AI APIs (Built in Models)
+   - [Windows AI APIs (Built-in Models)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WindowsAI-Apis)
       - Phi silica  
       - Text Recognition
       - Imaging: Image Super Resolution, Image Erase, Image Extraction

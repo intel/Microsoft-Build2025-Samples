@@ -1,0 +1,8 @@
+{
+    "profiles": {
+      "WindowsAI-APis": {
+        "commandName": "Project",
+        "commandLineArgs": "image_scaler"
+      }
+    }
+  }
