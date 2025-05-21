@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FoundryLocalApp": {
+        "commandName": "Project",
+        "commandLineArgs": "test"
+
+    }
+  }
+}
