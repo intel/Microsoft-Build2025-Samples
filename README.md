@@ -1,6 +1,6 @@
 # Microsoft Build 2025 Samples
 
-Welcome to the Microsoft Build 2025 Samples Repository. This repository contains C# samples for the Windows AI Foundry, a groundbreaking platform designed to empower developers with advanced AI capabilities on Windows across a broad spectrum of silicon. The Windows AI Foundry is built on three key pillars: Built-in Models, Ready-to-use Open Source Models, and Bring Your Own Model and this repo features samples for each category running on the Intel AI PC and Copilot+ PCs's.
+Welcome to the Microsoft Build 2025 Samples Repository. This repository contains C# samples for the Windows AI Foundry, a groundbreaking platform designed to empower developers with advanced AI capabilities on Windows across a broad spectrum of silicon. The Windows AI Foundry is built on three key pillars: Built-in Models, Ready-to-use Open Source Models, and Bring Your Own Model and this repo features samples for each category running on the Intel AI PC and Copilot+ PC's.
 
 ## Repository Contents
 
