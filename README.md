@@ -6,7 +6,7 @@ More information on Windows AI Foundry is available at: https://learn.microsoft.
 
 ## Repository Contents
 
-   - [Windows AI APIs (Built-in Models)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WindowsAI-Apis)
+   - [Windows AI APIs (Built-in Models)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WindowsAI-Apis)
       - Phi silica  
       - Text Recognition
       - Imaging: Image Super Resolution, Image Erase, Image Extraction
