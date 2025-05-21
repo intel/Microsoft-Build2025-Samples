@@ -5,9 +5,9 @@ Welcome to the Microsoft Build 2025 Samples Repository. This repository contains
 ## Repository Contents
 
    - Windows AI APIs (Built in Models)
-    - Phi silica  
-    - Text Recognition
-    - Imaging: Image Super Resolution, Image Erase, Image Extraction
+      - Phi silica  
+      - Text Recognition
+      - Imaging: Image Super Resolution, Image Erase, Image Extraction
 
    - Ready to Use Open Source Models Via Foundry Local
       - Application using Fundry Local for Inferencing
