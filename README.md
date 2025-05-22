@@ -6,15 +6,15 @@ More information on Windows AI Foundry is available at: https://learn.microsoft.
 
 ## Repository Contents
 
-   - [Windows AI APIs (Built-in Models)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WindowsAI-Apis)
+   - [Windows AI APIs (Built-in Models)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WindowsAI-Apis)
       - Phi silica  
       - Text Recognition
       - Imaging: Image Super Resolution, Image Erase, Image Extraction
 
-   -  [Ready to Use Open Source Models Via Foundry Local](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/FoundryLocalApp)
+   -  [Ready to Use Open Source Models Via Foundry Local](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/FoundryLocalApp)
       - Application using Foundry Local for Inferencing
 
-   - [Bring Your Own Model(BYOM)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WinML/Clip-VIT)
+   - [Bring Your Own Model(BYOM)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WinML/Clip-VIT)
       - Windows ML using clip-vit-base-patch32 
 
 ## Software Pre-reqs
