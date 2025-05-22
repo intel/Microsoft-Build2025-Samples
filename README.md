@@ -15,7 +15,6 @@ More information on Windows AI Foundry is available at: https://learn.microsoft.
       - Application using Foundry Local for Inferencing
 
    - [Bring Your Own Model(BYOM)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WinML/Clip-VIT)
-      - Windows ML using Resnet50 
       - Windows ML using clip-vit-base-patch32 
 
 ## Software Pre-reqs
