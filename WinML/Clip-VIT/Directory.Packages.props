@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Windows.AI.MachineLearning" Version="0.3.131-beta" />
+	<PackageVersion Include="Microsoft.ML.Tokenizers" Version="2.0.0-preview.1.25127.4" />
+	<PackageVersion Include="Microsoft.ML.Tokenizers.Data.O200kBase" Version="2.0.0-preview.1.25127.4" />
+	<PackageVersion Include="Microsoft.ML.OnnxRuntime" Version="1.21.0" />
+	  
+  </ItemGroup>
+</Project>

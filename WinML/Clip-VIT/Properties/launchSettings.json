@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Clip-VIT": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\images\\bird.jpg"
+    }
+  }
+}

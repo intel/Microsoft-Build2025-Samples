@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\build-demo\\Clip-VIT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\build-demo\\clip-vit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\build-demo\\clip-vit\\clip-vit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|solutionrelative:clip-vit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\users\\intel\\.nuget\\packages\\microsoft.windows.ai.machinelearning\\0.3.131-beta\\include\\winmlbootstrapautoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\build-demo\\clip-vit\\clip-vit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|solutionrelative:clip-vit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\build-demo\\clip-vit\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|solutionrelative:constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\build-demo\\clip-vit\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|solutionrelative:imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|c:\\build-demo\\clip-vit\\imagedesc.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{68C9F6B6-AC89-44FB-823D-E3075FBA40CB}|Clip-VIT.csproj|solutionrelative:imagedesc.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WinMLBootstrapAutoInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Intel\\.nuget\\packages\\microsoft.windows.ai.machinelearning\\0.3.131-beta\\include\\WinMLBootstrapAutoInitializer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Intel\\.nuget\\packages\\microsoft.windows.ai.machinelearning\\0.3.131-beta\\include\\WinMLBootstrapAutoInitializer.cs",
+              "ToolTip": "C:\\Users\\Intel\\.nuget\\packages\\microsoft.windows.ai.machinelearning\\0.3.131-beta\\include\\WinMLBootstrapAutoInitializer.cs",
+              "RelativeToolTip": "..\\..\\Users\\Intel\\.nuget\\packages\\microsoft.windows.ai.machinelearning\\0.3.131-beta\\include\\WinMLBootstrapAutoInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:16:31.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\build-demo\\Clip-VIT\\Constants.cs",
+              "RelativeDocumentMoniker": "Constants.cs",
+              "ToolTip": "C:\\build-demo\\Clip-VIT\\Constants.cs",
+              "RelativeToolTip": "Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T18:39:34.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "imagedesc.txt",
+              "DocumentMoniker": "C:\\build-demo\\Clip-VIT\\imagedesc.txt",
+              "RelativeDocumentMoniker": "imagedesc.txt",
+              "ToolTip": "C:\\build-demo\\Clip-VIT\\imagedesc.txt",
+              "RelativeToolTip": "imagedesc.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-20T21:09:21.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clip-VIT",
+              "DocumentMoniker": "C:\\build-demo\\Clip-VIT\\Clip-VIT.csproj",
+              "RelativeDocumentMoniker": "Clip-VIT.csproj",
+              "ToolTip": "C:\\build-demo\\Clip-VIT\\Clip-VIT.csproj",
+              "RelativeToolTip": "Clip-VIT.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T15:57:00.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clip-VIT.csproj",
+              "DocumentMoniker": "C:\\build-demo\\Clip-VIT\\Clip-VIT.csproj",
+              "RelativeDocumentMoniker": "Clip-VIT.csproj",
+              "ToolTip": "C:\\build-demo\\Clip-VIT\\Clip-VIT.csproj",
+              "RelativeToolTip": "Clip-VIT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T02:23:40.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "C:\\build-demo\\Clip-VIT\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "ImageHelper.cs",
+              "ToolTip": "C:\\build-demo\\Clip-VIT\\ImageHelper.cs",
+              "RelativeToolTip": "ImageHelper.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T03:53:59.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\build-demo\\Clip-VIT\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\build-demo\\Clip-VIT\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:17:05.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
