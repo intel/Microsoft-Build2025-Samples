@@ -6,21 +6,24 @@ More information on Windows AI Foundry is available at: https://learn.microsoft.
 
 ## Repository Contents
 
-   - [Windows AI APIs (Built-in Models)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WindowsAI-Apis)
+   - [Windows AI APIs (Built-in Models)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WindowsAI-Apis)
       - Phi silica  
       - Text Recognition
       - Imaging: Image Super Resolution, Image Erase, Image Extraction
 
-   - [Ready to Use Open Source Models Via Foundry Local](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/FoundryLocalApp)
+   -  [Ready to Use Open Source Models Via Foundry Local](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/FoundryLocalApp)
       - Application using Foundry Local for Inferencing
 
-   - [Bring Your Own Model(BYOM)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WinML/Clip-VIT)
+   - [Bring Your Own Model(BYOM)](https://github.com/intel-innersource/applications.ai.client.samples/tree/main/WinML/Clip-VIT)
+      - Windows ML using Resnet50 
       - Windows ML using clip-vit-base-patch32 
 
 ## Software Pre-reqs
 1. Install latest NPU drivers by downloading it from : https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
 2. Install latest Intel GPU Drivers using Intel® Driver & Support Assistant (Intel® DSA) available at : https://www.intel.com/content/www/us/en/support/detect.html
-3. Install Visual Studio 2022 Community edition with C++: Visual Studio 2022, selecting  ".Net desktop Development" and “Desktop Development with C++” workloads. If already installed please upgrade to 17.14
+3. Install Visual Studio 2022 Community edition with C++: Visual Studio 2022, selecting  ".Net desktop Development" and “Desktop Development with C++” workloads. If already installed     
+   please upgrade to 17.14
+4. Clone the samples repo by doing a `git clone https://github.com/intel/Microsoft-Build2025-Samples.git`
 
 Please note that each of the categories of samples might have additional software prereqs which will be listed in the readme for that category.
 
