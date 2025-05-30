@@ -1,0 +1,5 @@
+optimum-intel>=1.22.0
+openvino>=2025.1.0
+nncf>=2.16.0
+openvino-genai>=2025.1.0.0
+nltk>=3.9.1
