@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\sharedfolder\\Resnet50\\Resnet50\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|c:\\sharedfolder\\resnet50\\resnet50\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|c:\\sharedfolder\\resnet50\\resnet50\\resnet50.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|solutionrelative:resnet50.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|c:\\sharedfolder\\resnet50\\resnet50\\resnethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|solutionrelative:resnethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|c:\\sharedfolder\\resnet50\\resnet50\\resnet50.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|solutionrelative:resnet50.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|c:\\sharedfolder\\resnet50\\resnet50\\directory.packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|solutionrelative:directory.packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|c:\\sharedfolder\\resnet50\\resnet50\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84B49EFE-D312-4DBF-8D34-EF653EC261AD}|ResNet50.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResNetHelper.cs",
+              "DocumentMoniker": "C:\\sharedfolder\\Resnet50\\Resnet50\\ResNetHelper.cs",
+              "RelativeDocumentMoniker": "ResNetHelper.cs",
+              "ToolTip": "C:\\sharedfolder\\Resnet50\\Resnet50\\ResNetHelper.cs",
+              "RelativeToolTip": "ResNetHelper.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAYwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:01:36.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Directory.Packages.props",
+              "DocumentMoniker": "C:\\sharedfolder\\Resnet50\\Resnet50\\Directory.Packages.props",
+              "RelativeDocumentMoniker": "Directory.Packages.props",
+              "ToolTip": "C:\\sharedfolder\\Resnet50\\Resnet50\\Directory.Packages.props",
+              "RelativeToolTip": "Directory.Packages.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-01T23:57:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\sharedfolder\\Resnet50\\Resnet50\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\sharedfolder\\Resnet50\\Resnet50\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T06:35:57.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResNet50.csproj",
+              "DocumentMoniker": "C:\\sharedfolder\\Resnet50\\Resnet50\\ResNet50.csproj",
+              "RelativeDocumentMoniker": "ResNet50.csproj",
+              "ToolTip": "C:\\sharedfolder\\Resnet50\\Resnet50\\ResNet50.csproj",
+              "RelativeToolTip": "ResNet50.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T13:28:42.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\sharedfolder\\Resnet50\\Resnet50\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\sharedfolder\\Resnet50\\Resnet50\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:30:47.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResNet50",
+              "DocumentMoniker": "C:\\sharedfolder\\Resnet50\\Resnet50\\ResNet50.csproj",
+              "RelativeDocumentMoniker": "ResNet50.csproj",
+              "ToolTip": "C:\\sharedfolder\\Resnet50\\Resnet50\\ResNet50.csproj",
+              "RelativeToolTip": "ResNet50.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T00:07:41.044Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Resnet50": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\temp\\dog.jpg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>x64</Platforms>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<WinMLDeployMSIXToOutput>true</WinMLDeployMSIXToOutput>
+	</PropertyGroup>
+
+
+  <ItemGroup>
+    <Content Include="ResNet50Labels.txt" CopyToOutputDirectory="PreserveNewest" />
+	  <Content Include="ov_model_st_quant.onnx" CopyToOutputDirectory="PreserveNewest" />
+	  <Content Include="ov_model_st_quant.bin" CopyToOutputDirectory="PreserveNewest" />
+	  <Content Include="ov_model_st_quant.xml" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Windows.AI.MachineLearning" />
+		<PackageReference Include="Microsoft.ML.Tokenizers" />
+		<PackageReference Include="Microsoft.ML.Tokenizers.Data.O200kBase" />
+	</ItemGroup>
+
+
+</Project>

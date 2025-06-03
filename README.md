@@ -15,8 +15,10 @@ More information on Windows AI Foundry is available at: https://learn.microsoft.
       - Application using Foundry Local for Inferencing
 
    - [Bring Your Own Model(BYOM)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WinML/Clip-VIT)
+      - Windows ML using Resnet50
       - Windows ML using clip-vit-base-patch32 
 
+   Please note that there is also a Cloud to Client Migration Recipe detailing the key considerations when migrating workloads from cloud to client available at [Cloud to Client](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/cloudtoclientmigration)
 ## Software Pre-reqs
 1. Install latest NPU drivers by downloading it from : https://www.intel.com/content/www/us/en/download/794734/intel-npu-driver-windows.html
 2. Install latest Intel GPU Drivers using Intel® Driver & Support Assistant (Intel® DSA) available at : https://www.intel.com/content/www/us/en/support/detect.html
