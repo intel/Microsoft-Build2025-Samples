@@ -2,16 +2,8 @@
 
 ## Software Prerequisites
 
-1. **Join the Windows Insider Program**  
-   The Windows AI APIs currently require you to join the Windows Insider program. For more information, visit:  
-   [Windows AI APIs Documentation](https://learn.microsoft.com/en-us/windows/ai/apis/phi-silica#:~:text=windows.ai.text-,Important,so%20until%20the%20app%20has%20been%20granted%20package%20identity%20at%20runtime,-.)
-
-2. **Instructions to Join**  
-   Follow the instructions to join the Windows Insider program:  
-   [Join the Windows Insider Program](https://support.microsoft.com/en-us/windows/join-the-windows-insider-program-and-manage-insider-settings-ef20bb3d-40f4-20cc-ba3c-a72c844b563c)
-
-3. **Enable Developer Mode**  
-   Turn on Developer Mode from Windows Settings.
+1. **Please update to the latest Windows release**  
+   Settings > Windows Updates > Check for updates
 
 ## Instructions for Running the Windows AI APIs
 
