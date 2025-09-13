@@ -1,6 +1,6 @@
 ﻿public class Constants 
 {
-   public const string CPU = "cpu";
-   public const string GPU = "gpu";
-    public const string NPU = "npu";
+   public const string CPU = "CPU";
+   public const string GPU = "GPU";
+   public const string NPU = "NPU";
 }
