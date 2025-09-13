@@ -12,37 +12,26 @@
 
 1. **Load the Solution**  
 
-   Open `FoundryLocalApp.sln` located in the `FoundryLocalApp` directory using Visual Studio.
+   Open `FoundryLocalApp.sln` located in the `FoundryLocalApp` directory using Visual Studio. Please make sure to start Visual Studio as an administrator otherwise
+   Foundry Local service may not start.
 
 2. **Build the Solution**  
 
    Run "Clean Solution" followed by "Build Solution".
 
-3. **Run Foundry Local**  
+3. **Run the Project**  
 
-   - Open the command prompt and check Foundry Local status by executing: `foundry service status`  
-     You should see something like:  
-
-     ![Foundry Service Status](images/foundry-status.png)
-
-   - Note the port number at which the Foundry service is running, which in this case is 5272.
-
-   - Instruct Foundry Local to download and run `mistral-7b-gpu` by executing: `foundry model run mistral-7b-gpu`  
-
-     ![Foundry Model Run](images/foundry-model-run.png)
-
-   - Run a test prompt to ensure the service is running.  
-
-     ![Foundry Service Test Prompt](images/foundry-model-prompt.png)
+   Execute the `FoundryLocalApp` project.
    
-4. **Configure the Application**  
+   The sample starts the Foundry Local Service and displays the list of models from which you can select the one you want to use for inferencing:
 
-   In Visual Studio, open `Program.cs` and edit the endpoint to use the same port as where Foundry Local is running. The default is set to 5272.  
+    ![Select Model](images/list-of-models.png) 
 
-   ![Setting Port Number in the Application](images/endpoint.png)
+    Enter the name of the models from the list above. Please note that it can take several minutes for the model to download of not download previous based on the
+    network speed and size of the model.
 
-5. **Run the Project**  
+    ![Enter Model name in the prompt](images/enter-model-name.png) 
 
-   Execute the `FoundryLocalApp` project, and you should see a result similar to below.  
-
-   ![Inference Result](images/inference-result.png) 
+   Here is the result from the OpenAI call that is made to the selected model running in the Foundry Local Service :
+   
+     ![Inference Result](images/result.png) 
