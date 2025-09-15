@@ -12,7 +12,7 @@
 
 1. **Load the Solution**  
 
-   Open `FoundryLocalApp.sln` located in the `FoundryLocalApp` directory using Visual Studio. Please make sure to start Visual Studio as an administrator otherwise
+   Open `FoundryLocalApp.sln` located in the `FoundryLocalApp` directory using Visual Studio. **Important:** Please make sure to start Visual Studio as an administrator otherwise
    Foundry Local service may not start.
 
 2. **Build the Solution**  
