@@ -3,9 +3,9 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Microsoft.Windows.AI.MachineLearning" Version="0.3.131-beta" />
+	<PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.8.250916003" />
     <PackageVersion Include="Microsoft.ML.Tokenizers" Version="2.0.0-preview.1.25127.4" />
     <PackageVersion Include="Microsoft.ML.Tokenizers.Data.O200kBase" Version="2.0.0-preview.1.25127.4" />
-    <PackageVersion Include="Microsoft.ML.OnnxRuntime" Version="1.21.0" />
+	<PackageVersion Include="System.Numerics.Tensors" Version="10.0.0-rc.1.25451.107" />
   </ItemGroup>
 </Project>

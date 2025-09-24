@@ -8,7 +8,8 @@
 		<Nullable>enable</Nullable>
 		<Platforms>x64</Platforms>
 		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
-		<WinMLDeployMSIXToOutput>true</WinMLDeployMSIXToOutput>
+		<WindowsPackageType>None</WindowsPackageType>
+		<WindowsAppSdkBootstrapInitialize>true</WindowsAppSdkBootstrapInitialize>
 	</PropertyGroup>
 
 
@@ -20,9 +21,10 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Windows.AI.MachineLearning" />
+		<PackageReference Include="Microsoft.WindowsAppSDK" />
 		<PackageReference Include="Microsoft.ML.Tokenizers" />
 		<PackageReference Include="Microsoft.ML.Tokenizers.Data.O200kBase" />
+		<PackageReference Include="System.Numerics.Tensors" />
 	</ItemGroup>
 
 

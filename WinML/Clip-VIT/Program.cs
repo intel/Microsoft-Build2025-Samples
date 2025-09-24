@@ -25,12 +25,8 @@ internal class Program
 
             using OrtEnv ortEnv = OrtEnv.CreateInstanceWithOptions(ref envOptions);
 
-            Infrastructure infrastructure = new();
-
-            //Download the Windows ML Runtime Intel OpenVINO Execution Provider.
-            await infrastructure.DownloadPackagesAsync();
-            await infrastructure.RegisterExecutionProviderLibrariesAsync();
-
+            await InitializeProvidersAsync();
+            
             string executableFolder = Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location)!;
             Console.WriteLine($"Executable folder is {executableFolder}");
             //Please use AI Toolkit in Visual Studio code to convert and optimize the Clip-Vit model and Please e
@@ -114,6 +110,30 @@ internal class Program
         return -1;
     }
 
+    public static async Task InitializeProvidersAsync(bool allowDownload = true)
+    {
+        Console.WriteLine("Getting available providers...");
+        var catalog = ExecutionProviderCatalog.GetDefault();
+        var providers = catalog.FindAllProviders();
+
+        foreach (var provider in providers)
+        {
+            Console.WriteLine($"Provider: {provider.Name}");
+            try
+            {
+                var providerState = provider.ReadyState;
+                Console.WriteLine($"Provider state: {providerState}");
+                await provider.EnsureReadyAsync();
+                Console.WriteLine($"Provider state: {provider.ReadyState}");
+                provider.TryRegister();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to initialize provider {provider.Name}: {ex.Message}");
+                // Continue with other providers
+            }
+        }
+    }
     public static float[] Softmax(float[] logits)
     {
         float maxLogit = logits.Max();

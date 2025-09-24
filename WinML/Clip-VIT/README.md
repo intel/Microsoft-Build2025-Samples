@@ -7,6 +7,9 @@
 
 2. **Install AI Toolkit Extension in Visual Studio Code**  
    [AI Toolkit for VS Code](https://code.visualstudio.com/docs/intelligentapps/overview)
+
+3. **Install latest Windows App SDK Stable Release**
+   [Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads)  
     
 ## Instructions for Running the Clip-VIT Sample
 
@@ -84,5 +87,6 @@ Running the sample involves the model preparation phase that converts and quanti
 
 
 5. **Run the Project**  
-   Execute the `Clip-VIT` project, and you should see a result similar to below.  
+   - Execute the `Clip-VIT` project, and you should see a result similar to below.  
+
    ![Inference Result](images/inference-result.png)

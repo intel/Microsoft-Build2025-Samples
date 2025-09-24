@@ -7,6 +7,9 @@
 
 2. **Install AI Toolkit Extension in Visual Studio Code**  
    [AI Toolkit for VS Code](https://code.visualstudio.com/docs/intelligentapps/overview)
+
+3. **Install latest Windows App SDK Stable Release**
+   [Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads)   
     
 ## Instructions for Running the ResNet50 Sample
 

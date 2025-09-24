@@ -1,10 +1,9 @@
-﻿using System.Reflection;
-using System.Runtime.InteropServices.WindowsRuntime;
-
-using Microsoft.Windows.AI.MachineLearning;
-using Microsoft.ML.OnnxRuntime;
+﻿using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
-using System.Diagnostics;
+using Microsoft.Windows.AI.MachineLearning;
+using System.Reflection;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml;
 
 internal class Program
 {
@@ -26,11 +25,7 @@ internal class Program
 
             using OrtEnv ortEnv = OrtEnv.CreateInstanceWithOptions(ref envOptions);
 
-            Infrastructure infrastructure = new();
-
-            //Download the Windows ML Runtime Intel OpenVINO Execution Provider.
-            await infrastructure.DownloadPackagesAsync();
-            await infrastructure.RegisterExecutionProviderLibrariesAsync();
+            await InitializeProvidersAsync();
 
             string executableFolder = Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location)!;
            
@@ -102,6 +97,30 @@ internal class Program
         return -1;
     }
 
+    public static async Task InitializeProvidersAsync()
+    {
+        Console.WriteLine("Getting available providers...");
+        var catalog = ExecutionProviderCatalog.GetDefault();
+        var providers = catalog.FindAllProviders();
+
+        foreach (var provider in providers)
+        {
+            Console.WriteLine($"Provider: {provider.Name}");
+            try
+            {
+                var providerState = provider.ReadyState;
+                Console.WriteLine($"Provider state: {providerState}");
+                await provider.EnsureReadyAsync();
+                Console.WriteLine($"Provider state: {provider.ReadyState}");
+                provider.TryRegister();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to initialize provider {provider.Name}: {ex.Message}");
+                // Continue with other providers
+            }
+        }
+    }
     public static IReadOnlyList<float> Softmax(IReadOnlyList<float> logits)
     {
         List<float> exps = new List<float>(logits.Count);
