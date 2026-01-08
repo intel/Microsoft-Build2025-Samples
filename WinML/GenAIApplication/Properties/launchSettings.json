@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenAIApplication": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\genai-conversion\\genai-conversi\\huggingface_Qwen_Qwen2.5-7B-Instruct_v3\\history\\Convert to Intel GPU_20260107_072900\\model\""
+    }
+  }
+}
