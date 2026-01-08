@@ -17,6 +17,7 @@ More information on Windows AI Foundry is available at: https://learn.microsoft.
    - [Bring Your Own Model(BYOM)](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/WinML/Clip-VIT)
       - Windows ML using Resnet50
       - Windows ML using clip-vit-base-patch32 
+      - Windows ML Gen AI using Qwen2.5-7B-Instruct
 
    Please note that there is also a Cloud to Client Migration Recipe detailing the key considerations when migrating workloads from cloud to client available at [Cloud to Client](https://github.com/intel/Microsoft-Build2025-Samples/tree/main/cloudtoclientmigration)
 ## Software Pre-reqs
