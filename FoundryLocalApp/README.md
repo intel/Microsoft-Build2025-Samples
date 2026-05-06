@@ -1,13 +1,5 @@
 # Ready to Use Open Source Models Via Foundry Local
 
-## Software Prerequisites
-
-1. **Install Foundry Local:**  
-
-   Follow the instructions at the link:  
-   [Get Started with Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/get-started)
-
-
 ## Instructions for Running the Foundry Local Sample Application
 
 1. **Load the Solution**  

@@ -1,70 +1,44 @@
 ﻿
 using Microsoft.AI.Foundry.Local;
+using Microsoft.Extensions.Logging;
 using OpenAI;
 using OpenAI.Chat;
 using System.ClientModel;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+
+
 
 class Program
 {
-    static async Task Main(string[] args) { 
+    static async Task Main(string[] args) {
 
-        var manager = new FoundryLocalManager();
-        await manager.StartServiceAsync(CancellationToken.None);
-        if (!manager.IsServiceRunning)
-        {
-            Console.WriteLine($"Foundry Service failed to start. Exiting!\n ");
-            Environment.Exit(0);
-        }
-        else
-        {
-            Console.WriteLine($"Foundry Service running at {manager.Endpoint}\n ");
-        }
-        List<ModelInfo> models = await manager.ListCatalogModelsAsync();
-        Console.WriteLine($"List of supported models in Foundry Local:\n");
-        for (int i = 0; i < models.Count; i++)
-        {
-            Console.WriteLine($"{models[i].ModelId}");
-        }
-
-        Console.WriteLine("\nPlease copy the model name from the above list which you would like to try out :");
-        var modelId = "";
-        while (modelId.Equals("")) {
-            modelId = Console.ReadLine()?.Trim();
-        }
-        var modelLoaded = await isModelLoaded(modelId, manager);
-        if(!modelLoaded)
-        {
-            Console.WriteLine("\nDownloading Model since its not found in cache. This can take several mins depending on network speed and model size.\n");
-        }
-        else
-        {
-            Console.WriteLine("\nModel found in cache.\n");
-        }
-        await FoundryLocalManager.StartModelAsync(modelId);
-
+        var service= new FoundryLocalService();
+        await service.InitializeAsync();
+        var modelId =  await service.SelectandDownloadModel();
+        
         ApiKeyCredential key = new ApiKeyCredential("not-needed-for-local");
 
-        OpenAIClient client = new OpenAIClient(key, new OpenAIClientOptions
-        {
-            Endpoint = manager?.Endpoint
-
-
+        OpenAIClient client = new OpenAIClient(key, new OpenAIClientOptions {
+                              Endpoint = new Uri(service.Endpoint + "/v1")
         });
         var options = new ChatCompletionOptions
         {
             MaxOutputTokenCount = 5000
         };
-       
+
+        var prompt = "What is artificial intelligence?";
         ChatClient chatClient = client.GetChatClient(modelId);
         Console.WriteLine("Request sent to Foundry Local\n ");
         var messages = new List<ChatMessage>
         {
             new SystemChatMessage("You are a helpful assistant."),
-            new UserChatMessage("What is artificial intelligence?"),  
+            new UserChatMessage(prompt),
         };
         CollectionResult<StreamingChatCompletionUpdate> completionUpdates = chatClient.CompleteChatStreaming(messages, options);
 
-        Console.WriteLine($"[ASSISTANT]: ");
+        Console.WriteLine($"[ASSISTANT]: {prompt}");
         Console.WriteLine("\n------------------------------------------------------------");
         foreach (StreamingChatCompletionUpdate completionUpdate in completionUpdates)
         {
@@ -76,21 +50,9 @@ class Program
         Console.WriteLine("\n------------------------------------------------------------\n");
         Console.WriteLine("Please hit enter to exit the program.");
         Console.ReadLine();
+        await service.ShutdownAsync();
         Environment.Exit(0);
 
-    }
-
-    private static async Task<bool> isModelLoaded(string modelId, FoundryLocalManager manager)
-    {
-        List<ModelInfo> loadedModels = await manager.ListCachedModelsAsync();
-        for ( int i=0; i < loadedModels.Count; i++)
-        {
-            if (loadedModels[i].ModelId.Equals(modelId))
-            {
-                return true;
-            }
-        }
-        return false;
     }
 }
    

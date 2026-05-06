@@ -4,7 +4,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="OpenAI" Version="2.4.0" />
-	<PackageVersion Include="Microsoft.AI.Foundry.Local" Version="0.3.0" />
-
+	<PackageVersion Include="Microsoft.AI.Foundry.Local.WinML" Version="1.1.0" />
+	<PackageVersion Include="Microsoft.Extensions.Logging" Version="9.0.9" />
+	<PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+	<PackageVersion Include="System.Text.Json" Version="10.0.3" />
   </ItemGroup>
 </Project>
